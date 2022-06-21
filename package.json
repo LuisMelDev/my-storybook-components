@@ -1,7 +1,23 @@
 {
-    "name": "my-storybook",
+    "name": "lm-my-storybook-components",
     "version": "0.1.0",
-    "private": true,
+    "private": false,
+    "license": "MIT",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "repository": {
+        "url": "https://github.com/LuisMelDev/my-storybook-components",
+        "type": "git"
+    },
+    "release": {
+        "branches": [
+            "master"
+        ]
+    },
+    "files": [
+        "src",
+        "dist"
+    ],
     "dependencies": {
         "@testing-library/jest-dom": "^5.14.1",
         "@testing-library/react": "^13.0.0",
@@ -17,9 +33,9 @@
     },
     "scripts": {
         "start": "start-storybook -p 4000",
-        "build": "build-storybook",
+        "build": "TODO: Implementar",
         "storybook": "start-storybook -p 4000",
-        "build-storybook": "build-storybook"
+        "build-storybook": "TODO: Implementar"
     },
     "eslintConfig": {
         "extends": [
