@@ -9,7 +9,7 @@
         "url": "https://github.com/LuisMelDev/my-storybook-components",
         "type": "git"
     },
-    "release": {
+    "release": {/dist
         "branches": [
             "master"
         ]
@@ -19,8 +19,7 @@
         "dist"
     ],
     "peerDependencies": {
-        "react": ">=18",
-        "typescript": ">=4.4"
+        "react": ">=18"
     },
     "dependencies": {
         "@testing-library/jest-dom": "^5.14.1",
