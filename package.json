@@ -9,7 +9,7 @@
         "url": "https://github.com/LuisMelDev/my-storybook-components",
         "type": "git"
     },
-    "release": {/dist
+    "release": {
         "branches": [
             "master"
         ]
