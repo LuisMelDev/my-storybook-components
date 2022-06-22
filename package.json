@@ -2,6 +2,10 @@
     "name": "lm-my-storybook-components",
     "version": "0.1.0",
     "private": false,
+    "author": {
+        "name": "Luis Melendez",
+        "email": "melendez12341@gmail.com"
+    },
     "license": "MIT",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
