@@ -1,5 +1,5 @@
+/// <reference types="react" />
 import "./mylabel.css";
-
 export interface MyLabelProps {
     /**
      * this is the message to display in the tag
@@ -21,30 +21,9 @@ export interface MyLabelProps {
      * custom font color
      */
     fontColor?: string;
-
     /**
      * custom background color
      */
     backgroundColor?: string;
 }
-
-export const MyLabel = ({
-    label = "No Label",
-    size = "normal",
-    color = "primary",
-    allCaps = false,
-    fontColor,
-    backgroundColor = "transparent",
-}: MyLabelProps) => {
-    return (
-        <span
-            style={{
-                color: fontColor,
-                backgroundColor,
-            }}
-            className={`label ${size} text-${color} ${allCaps && "capitalize"}`}
-        >
-            {label}
-        </span>
-    );
-};
+export declare const MyLabel: ({ label, size, color, allCaps, fontColor, backgroundColor, }: MyLabelProps) => JSX.Element;
